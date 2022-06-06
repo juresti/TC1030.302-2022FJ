@@ -4,5 +4,5 @@
 SistemaComunicacion::SistemaComunicacion(string tipo) :
         tipoComunicacion{tipo}, comunicando{false} {}
     
-bool SistemaComunicacion::isComunicando() {return isComunicando;}
+bool SistemaComunicacion::isComunicando() {return comunicando;}
 void SistemaComunicacion::setComunicando(bool val) {comunicando = val;}
